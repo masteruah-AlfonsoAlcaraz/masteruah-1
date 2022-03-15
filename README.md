@@ -21,7 +21,7 @@
 > git commit -m "Primer commit" <!-- Hacemos el primer commit -->
 
 > git push <!-- Con esto guardamos los cambios en el repositorio inicial en mi cuenta de GitHub -->
->
+
 > git add 1.txt
 
 > git commit -m "Añadido 1.txt"
@@ -31,7 +31,7 @@
 > git branch v0.2 <!-- Creamos la primera rama -->
 
 > git checkout v0.2 <!-- Nos movemos a la rama -->
->
+
 > git checkout main
 
 > git add 1.txt
@@ -51,7 +51,7 @@
 
 > git status <!-- Nos mostrará el estado de la fusión, con detalles -->
 
->git add 1.txt
+> git add 1.txt
 
 > git commit -m "modificado main"
 
@@ -65,15 +65,15 @@
 
 > git merge v0.2 <!-- Hemos resuelto el conflicto modoficando el documento para que sea igual en ambas ramas, en mi caso sólo he borrado todo -->
 
->git add README.md
+> git add README.md
 
 > git commit -m "Tras fusión"
 
->git tag v0.2
+> git tag v0.2
 
 > git branch -d v0.2 <!-- Este comando borra la rama -->
 
->git log --oneline <!-- Este es el comando que muestra los commit por ramas -->
+> git log --oneline <!-- Este es el comando que muestra los commit por ramas -->
 
 >| NOMBRE  | GITHUB                                                       |
 >| ------- | ------------------------------------------------------------ |
@@ -81,4 +81,4 @@
 >| Fran    | \| Franxer \|https://github.com/Franxer/masteruah\|          |
 >| David   | \| DBRAVO \|https://github.com/DBRAV0/masteruah\|            |
 
-> 
+> El resto de ejercicios se han realizado sin la CMD de Git, directamente desde las opciones de GitHub, a excepción de aquellos que requerían modificar el index.html para añadir mi nombre, que sí han requerido el correspondiente add, commit y push para que se reflejase en mi cuenta de GitHub
