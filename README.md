@@ -65,5 +65,20 @@
 
 > git merge v0.2 <!-- Hemos resuelto el conflicto modoficando el documento para que sea igual en ambas ramas, en mi caso sólo he borrado todo -->
 
->
+>git add README.md
 
+> git commit -m "Tras fusión"
+
+>git tag v0.2
+
+> git branch -d v0.2 <!-- Este comando borra la rama -->
+
+>git log --oneline <!-- Este es el comando que muestra los commit por ramas -->
+
+>| NOMBRE  | GITHUB                                                       |
+>| ------- | ------------------------------------------------------------ |
+>| Alfonso | \| AlfonsoAlcaraz \|https://github.com/AlfonsoAlcaraz/masteruah\| |
+>| Fran    | \| Franxer \|https://github.com/Franxer/masteruah\|          |
+>| David   | \| DBRAVO \|https://github.com/DBRAV0/masteruah\|            |
+
+> 
